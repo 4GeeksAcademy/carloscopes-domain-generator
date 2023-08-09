@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+body {
+  background-color: #14222b;
+  font-family: "Inter", sans-serif;
+}
+
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerDiv h2 {
+  color: #bf991e;
+}
+
+.containerDiv ul {
+  margin: 0px 40px;
+}
+
+#list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#list .domainItems {
+  list-style-type: none;
+  text-align: center;
+  width: 200px;
+  background-color: #37474f;
+  color: #d3e3eb;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 8px;
+}
